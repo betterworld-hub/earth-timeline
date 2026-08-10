@@ -3,11 +3,6 @@
 **Last updated: 10-Aug-2026**
 **Contact: betterworld.knowyourchild@gmail.com**
 
-> Working draft based on how the app actually behaves — not legal advice. Have
-> a lawyer review before publishing. Play doesn't strictly require a terms
-> document (a privacy policy is the mandatory one), but having one is sensible
-> once the app depends on a third-party service and presents scientific claims.
-
 ## 1. What this app is
 
 Earth Timeline is an educational visualisation. It shows approximate
@@ -53,9 +48,6 @@ licence requires.
 Present-day Earth imagery is **NASA Blue Marble Next Generation** (NASA Earth
 Observatory / Visible Earth), which is in the public domain. NASA does not
 endorse this app.
-
-See `docs/LAUNCH_READINESS.md` for the full attribution and asset-provenance
-record.
 
 ## 5. Acceptable use
 
