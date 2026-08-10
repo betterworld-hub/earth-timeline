@@ -1,7 +1,7 @@
 # Privacy Policy — Earth Timeline
 
-**Last updated: [DATE BEFORE PUBLISHING]**
-**Contact: [YOUR SUPPORT EMAIL]**
+**Last updated: 10-Aug-2026**
+**Contact: betterworld.knowyourchild@gmail.com**
 
 > This is a working draft prepared from the app's actual behaviour, not legal
 > advice. Have a lawyer review it before publishing, and re-check it whenever
@@ -37,8 +37,6 @@ practices, which we don't control:
 - GPlates / EarthByte (paleocoordinates): https://www.earthbyte.org
 
 ## Analytics
-
-[Delete this section entirely if you ship without `google-services.json`.]
 
 The app uses **Google Firebase Analytics** to understand how the app is used
 in aggregate — for example, how many people try the timeline, and whether place
@@ -95,4 +93,4 @@ changes will be noted in the app's release notes.
 
 ## Contact
 
-Questions about this policy: **[YOUR SUPPORT EMAIL]**
+Questions about this policy: **betterworld.knowyourchild@gmail.com**
