@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Earth Timeline</title>
+<meta name="description" content="See where your corner of the world sat across 750 million years of Earth's history.">
+<meta property="og:title" content="Earth Timeline">
+<meta property="og:description" content="See where your corner of the world sat across 750 million years of Earth's history.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icon.png">
+<style>
+:root {
+  --bg: #070B14;
+  --bg-raised: #0F1B2E;
+  --line: rgba(148,178,214,0.16);
+  --text: #E8EEF7;
+  --muted: #93A7C4;
+  --cyan: #22D3EE;
+  --amber: #F5A524;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: radial-gradient(1200px 600px at 50% -200px, #132741 0%, var(--bg) 60%);
+  color: var(--text);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 22px 72px; }
+header.site { padding: 56px 0 8px; text-align: center; }
+header.site img.icon {
+  width: 132px; height: 132px; border-radius: 30px; background: var(--bg-raised);
+  box-shadow: 0 18px 50px rgba(0,0,0,.55);
+}
+h1 { font-size: 2.1rem; margin: 22px 0 6px; letter-spacing: -0.02em; }
+.tagline { color: var(--muted); font-size: 1.06rem; max-width: 30em; margin: 0 auto; }
+h2 { font-size: 1.22rem; margin: 40px 0 12px; letter-spacing: -0.01em; }
+h3 { font-size: 1.02rem; margin: 26px 0 8px; color: var(--cyan); }
+p, li { color: #CBD8EA; }
+a { color: var(--cyan); }
+a:hover { color: #67E8F9; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 36px 0; }
+.card {
+  background: rgba(15,27,46,.72); border: 1px solid var(--line);
+  border-radius: 14px; padding: 18px 20px; margin: 14px 0;
+}
+.features { list-style: none; padding: 0; margin: 8px 0 0; }
+.features li { padding: 11px 0 11px 30px; position: relative; }
+.features li::before {
+  content: ""; position: absolute; left: 6px; top: 20px;
+  width: 8px; height: 8px; border-radius: 50%; background: var(--amber);
+}
+.meta { color: var(--muted); font-size: .92rem; }
+.nav { text-align: center; margin: 30px 0 0; }
+.nav a {
+  display: inline-block; margin: 6px 8px; padding: 10px 18px;
+  border: 1px solid var(--line); border-radius: 999px; text-decoration: none;
+}
+.nav a:hover { border-color: var(--cyan); }
+table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: .95rem; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 600; }
+blockquote {
+  margin: 16px 0; padding: 12px 18px; border-left: 3px solid var(--amber);
+  background: rgba(245,165,36,.06); color: var(--muted);
+}
+code { background: rgba(148,178,214,.12); padding: 1px 6px; border-radius: 5px; font-size: .9em; }
+footer.site {
+  margin-top: 56px; padding-top: 26px; border-top: 1px solid var(--line);
+  color: var(--muted); font-size: .9rem; text-align: center;
+}
+footer.site a { color: var(--muted); }
+@media (max-width: 520px) {
+  h1 { font-size: 1.7rem; }
+  header.site { padding-top: 40px; }
+  header.site img.icon { width: 104px; height: 104px; border-radius: 24px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <img class="icon" src="assets/icon.png" alt="Earth Timeline app icon">
+  <h1>Earth Timeline</h1>
+  <p class="tagline">See where your corner of the world sat across 750 million years of Earth's history.</p>
+  <div class="nav">
+    <a href="privacy.html">Privacy policy</a>
+    <a href="terms.html">Terms of use</a>
+  </div>
+</header>
+
+<h2>What it does</h2>
+<p>Type in a place — your town, your street, anywhere — and watch it travel.
+Earth Timeline reconstructs where that patch of ground sat when the continents
+were arranged very differently: before the Atlantic existed, when everything was
+joined into Pangea, back to the supercontinent Rodinia 750&nbsp;million years ago.</p>
+
+<ul class="features">
+  <li><strong>Five moments in deep time</strong> — Rodinia, the Cambrian explosion,
+      Pangea, the asteroid that ended the dinosaurs, and today.</li>
+  <li><strong>Find your own place</strong> — search anywhere and a marker follows it
+      across every epoch.</li>
+  <li><strong>A real globe</strong> — spin it, zoom it, built on satellite imagery and
+      published plate-motion science.</li>
+  <li><strong>No account, no ads, no location tracking.</strong></li>
+</ul>
+
+<h2>About the science</h2>
+<div class="card">
+  <p>Continental positions come from published plate-motion models. They are
+  reconstructions, not measurements, and the uncertainty grows the further back
+  you go — positions hundreds of millions of years old are still actively
+  debated by researchers.</p>
+  <p>A marker shows where the tectonic plate beneath a place sat at that time. It
+  isn't evidence that the land, coastline or environment you know existed there.
+  The app is for curiosity and learning; for research, please cite the
+  underlying models directly.</p>
+</div>
+
+<h2>Data sources</h2>
+<div class="card">
+  <p><strong>Paleogeographic reconstructions:</strong> Merdith et al. (2021), via the
+  <a href="https://www.earthbyte.org/gplates-web-service/">GPlates Web Service</a>
+  (EarthByte, University of Sydney). Licensed
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC&nbsp;BY&nbsp;4.0</a>.</p>
+  <p><strong>Present-day Earth imagery:</strong>
+  <a href="https://visibleearth.nasa.gov/collection/1484/blue-marble">NASA Blue Marble
+  Next Generation</a> (NASA Earth Observatory / Visible Earth). Public domain.
+  NASA does not endorse this app.</p>
+</div>
+
+<h2>Support</h2>
+<p>Questions, bug reports or feedback:
+<a href="mailto:betterworld.knowyourchild@gmail.com">betterworld.knowyourchild@gmail.com</a>. I read everything.</p>
+
+<footer class="site">
+  <p><a href="index.html">Earth Timeline</a> &nbsp;·&nbsp;
+     <a href="privacy.html">Privacy</a> &nbsp;·&nbsp;
+     <a href="terms.html">Terms</a></p>
+  <p>Contact: <a href="mailto:betterworld.knowyourchild@gmail.com">betterworld.knowyourchild@gmail.com</a></p>
+</footer>
+</div>
+</body>
+</html>
