@@ -3,11 +3,6 @@
 **Last updated: 10-Aug-2026**
 **Contact: betterworld.knowyourchild@gmail.com**
 
-> This is a working draft prepared from the app's actual behaviour, not legal
-> advice. Have a lawyer review it before publishing, and re-check it whenever
-> the app starts sending data somewhere new. Google Play requires a privacy
-> policy for every app, hosted at a public URL, and the URL must stay live.
-
 ## The short version
 
 Earth Timeline shows you where a place on Earth sat at different points in
