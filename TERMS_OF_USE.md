@@ -1,7 +1,7 @@
 # Terms of Use — Earth Timeline
 
-**Last updated: [DATE BEFORE PUBLISHING]**
-**Contact: [YOUR SUPPORT EMAIL]**
+**Last updated: 10-Aug-2026**
+**Contact: betterworld.knowyourchild@gmail.com**
 
 > Working draft based on how the app actually behaves — not legal advice. Have
 > a lawyer review before publishing. Play doesn't strictly require a terms
@@ -76,4 +76,4 @@ change constitutes acceptance.
 
 ## 8. Contact
 
-**[YOUR SUPPORT EMAIL]**
+**betterworld.knowyourchild@gmail.com**
